@@ -1,0 +1,18 @@
+.line {
+    text-align: center;
+}
+
+#SongLyrics {
+    margin: 100px 0 0 0;
+    height: 340px;
+    width: 500px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    color: white;
+}
+
+
+#SongLyrics::-webkit-scrollbar {
+    display: none;
+}
